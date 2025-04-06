@@ -1,0 +1,12 @@
+[Unit]
+Description=Gunicorn instance to serve Flask app
+After=network.target
+
+[Service]
+User=harsh
+Group=www-data
+WorkingDirectory=/home/harsh/flask_app
+ExecStart=/usr/bin/gunicorn --workers 3 --bind 0.0.0.0:8000 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
