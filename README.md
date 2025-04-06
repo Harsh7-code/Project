@@ -117,8 +117,6 @@ Pipeline Features:
 
 📁 Prometheus config in `prometheus/`
 
-📸 Screenshot:  
-![Prometheus Monitoring](./screenshots/prometheus-monitoring.png)
 
 ---
 
