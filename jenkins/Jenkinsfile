@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    
+    environment {
+        APP_DIR = '/home/harsh/flask_app'
+    }
+
+    stages {
+        stage('Clone Repo') {
+            steps {
+                git 'https://github.com/Harsh7-code/MediaAMP-Project.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'python3 -m venv venv && source venv/bin/activate && pip install -r ${APP_DIR}/requirements.txt'
+            }
+        }
+
+        stage('Restart Flask App') {
+            steps {
+                sh 'sudo systemctl restart flask_app'
+            }
+        }
+
+        stage('Test Endpoint') {
+            steps {
+                sh 'curl http://localhost:5000/'
+            }
+        }
+    }
+}
