@@ -5,7 +5,6 @@ MediaAMP-Project/
 │   ├── wsgi.py
 │   ├── hit_compute.sh
 │   ├── compute.log
-│   ├── flask_app.service
 │   └── requirements.txt
 ├── jenkins/
 │   ├── Jenkinsfile
