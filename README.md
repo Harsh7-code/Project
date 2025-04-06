@@ -1,3 +1,4 @@
+```bash
 MediaAMP-Project/
 ├── flask_app/
 │   ├── app.py
@@ -8,13 +9,13 @@ MediaAMP-Project/
 │   └── requirements.txt
 ├── jenkins/
 │   ├── Jenkinsfile
-│   └── setup_notes.md
 ├── prometheus/
 │   ├── prometheus.yml
 │   └── flask_metrics_exporter.md
 ├── screenshots/
 ├── README.md
 └── .gitignore
+```
 
 
 # 🚀 MediaAMP-Project
@@ -138,6 +139,4 @@ Pipeline Features:
 ## 👨‍💻 Author
 
 **Harsh [@Harsh7-code](https://github.com/Harsh7-code)**  
-Project done as part of real-world simulation using Proxmox infra.
-
 ---
