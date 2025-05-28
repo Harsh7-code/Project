@@ -1,5 +1,5 @@
 ```bash
-MediaAMP-Project/
+Project/
 ├── flask_app/
 │   ├── app.py
 │   ├── wsgi.py
