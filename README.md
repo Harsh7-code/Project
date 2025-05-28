@@ -17,7 +17,7 @@ Project/
 ```
 
 
-# 🚀 MediaAMP-Project
+# 🚀 Project
 
 An end-to-end DevOps simulation project using **Proxmox**, **Flask**, **CI/CD with Jenkins**, **Monitoring with Prometheus**, and **Automation via Crontab**.
 
